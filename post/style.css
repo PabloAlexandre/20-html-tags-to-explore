@@ -1,0 +1,31 @@
+container {
+  display: block;
+  max-width: 780px;
+  margin: 32px auto;
+  width: 100%;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+column {
+  display: flex;
+  border: 1px solid #a5b4fc;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #555;
+  padding: 8px;
+  aspect-ratio: 1;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
