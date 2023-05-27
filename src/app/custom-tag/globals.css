@@ -1,0 +1,12 @@
+container {
+  display: block;
+  max-width: 1280px;
+  margin: 32px auto;
+  width: 100%;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
